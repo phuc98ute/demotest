@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>18110284</title>
+	<style type="text/css">
+	
+		.processor{
+			width: 500px;
+		}
+		table{
+			width:100%
+		}
+		th{
+			text-align: left;
+		}
+		.submit{
+			text-align: center;
+	}
+	</style>
+</head>
+<body>
+
+	<form action="Result.jsp">
+		<div class="processor">
+			<table>
+				<tr>
+					<th>Processor</th>
+					<th>Accessories</th>
+				</tr>
+				<tr>
+					<th></th>
+					<th>
+						<p><input type="checkbox" name="checkbox">Moniter</p>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<input type="radio" id="1" name="radio" value="Celeron D">
+						<label for="1">Celeron D</label>
+						<br>
+						<input type="radio" id="2" name="radio" value="Pentium IV">
+						<label for="2">Pentium IV</label>
+						<br>
+						<input type="radio" id="3" name="radio" value="Pentium D">
+						<label for="3">Pentium D</label>
+					</th>
+					
+					<th>
+						<select name="select" multiple="multiple" id="idsl">
+							<option value="Camera"> Camera </option>
+							<option value="Printer"> Printer </option>
+							<option value="Scanner"> Scanner </option>
+						</select>
+					</th>
+				</tr>
+				<tr> 
+					<th class="submit">
+						<input type="submit" name="PURCHASE" value="PURCHASE" id="submit">
+					</th>
+				</tr>
+			</table>
+		</div>
+	</form>
+</body>
+</html>
