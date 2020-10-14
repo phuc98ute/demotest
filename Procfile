@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar assembly/target/webapp-runner.jar demo.war
+web: java -jar target/dependency/webapp-runner.jar target/*.war
